@@ -1,5 +1,8 @@
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
+export EDITOR=nvim
+
+
 # # Example install plugins
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-autosuggestions"
