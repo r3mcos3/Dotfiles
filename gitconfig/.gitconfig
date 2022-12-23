@@ -1,0 +1,8 @@
+[user]
+	name = r3mcos3
+	email = r3mcos3@gmail.com
+	signingkey = FEEFB6764AD8A3E5
+[safe]
+	directory = /home/remco/harddisk/homeassistant
+[commit]
+	gpgsign = true
