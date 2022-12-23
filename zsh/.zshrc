@@ -51,3 +51,5 @@ lazyg() {
 }
 
 neofetch
+
+export GPG_TTY=$(tty)
