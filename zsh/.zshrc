@@ -7,6 +7,7 @@ export EDITOR=nvim
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
+plug "zap-zsh/sudo"
 
 # Example theme
 plug "zap-zsh/zap-prompt"
@@ -28,7 +29,7 @@ alias vpnon="sudo wg-quick up wg0"
 alias vpnoff="sudo wg-quick off wg0"
 alias server="ssh remco@10.10.50.93 -p 2223"
 alias ha="ssh root@10.10.50.173"
-alias mntha="sshfs root@10.10.50.173:/config ~/harddisk/homeassistant"
+alias mntha="sshfs root@10.10.50.173:/config /home/remco/harddisk/ha/"
 
 # Functions
 apt() { 
@@ -56,3 +57,7 @@ lazyg() {
 neofetch
 
 export GPG_TTY=$(tty)
+
+# fnm
+export PATH="/home/remco/.local/share/fnm:$PATH"
+eval "`fnm env`"
