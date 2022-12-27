@@ -12,3 +12,4 @@ Here i store my dotfiles managed with [Stow](https://www.gnu.org/software/stow/)
 * [d279908](https://github.com/r3mcos3/Dotfiles/commit/d279908ef487c9e7a5f71cff58b457a65a9dd345) updated kitty.conf
 * [98bcaa24](https://github.com/r3mcos3/Dotfiles/commit/98bcaa247962a92d230f65832097e2cdb6813eef) add gitconfig
 * [60ec36ef](https://github.com/r3mcos3/Dotfiles/commit/60ec36ef141823d312f7e9344c4f89f3cd740feb) added vim-fugitive
+* [9bab6d56](https://github.com/r3mcos3/Dotfiles/commit/9bab6d567db1e9d7ca7ab1c5677a6fbab7eccfcd) added lazygit to nvim
