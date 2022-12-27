@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
     }
     use ({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
     use ("wakatime/vim-wakatime")
+    use 'kdheepak/lazygit.nvim'
     use ("mbbill/undotree")
     use  'tpope/vim-fugitive'
     use {
