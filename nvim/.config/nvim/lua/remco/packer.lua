@@ -30,7 +30,6 @@ return require('packer').startup(function(use)
     use ("wakatime/vim-wakatime")
     use 'kdheepak/lazygit.nvim'
     use ("mbbill/undotree")
-    use  'tpope/vim-fugitive'
     use {
         'VonHeikemen/lsp-zero.nvim',
         requires = {
