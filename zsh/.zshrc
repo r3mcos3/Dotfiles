@@ -7,10 +7,9 @@ export EDITOR=nvim
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
-plug "zap-zsh/sudo"
 
-# Example theme
-plug "zap-zsh/zap-prompt"
+# Theme
+plug "wintermi/zsh-starship"
 
 # Example install completion
 plug "esc/conda-zsh-completion"
@@ -54,7 +53,6 @@ lazyg() {
 	git push
 }
 
-neofetch
 
 export GPG_TTY=$(tty)
 
