@@ -1,6 +1,6 @@
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
-export EDITOR=nvim
+export EDITOR=lvim
 
 
 # # Example install plugins
@@ -53,9 +53,3 @@ lazyg() {
 	git push
 }
 
-
-export GPG_TTY=$(tty)
-
-# fnm
-export PATH="/home/remco/.local/share/fnm:$PATH"
-eval "`fnm env`"
