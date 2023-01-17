@@ -34,3 +34,7 @@ lazyg() {
 	git push
 }
 
+ # fnm
+  export PATH="/home/remco/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+
