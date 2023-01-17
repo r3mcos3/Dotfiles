@@ -1,5 +1,6 @@
-ranger/.config/ranger/plugins/*
+ranger/.config/ranger/plugins/__pycache__
 lvim/.config/lvim/plugin
 
 *.py
 *.pyc
+*.cpython.opt-1.pyc
