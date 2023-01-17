@@ -1,2 +1,5 @@
-ranger/.config/ranger/plugins
+ranger/.config/ranger/plugins/*
 lvim/.config/lvim/plugin
+
+*.py
+*.pyc
