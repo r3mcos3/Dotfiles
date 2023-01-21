@@ -1,6 +1,6 @@
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
-export EDITOR=lvim
+export EDITOR=nvim
 
 
 # # Install plugins
