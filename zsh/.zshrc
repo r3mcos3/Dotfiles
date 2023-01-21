@@ -50,6 +50,9 @@ sudo() {
   fi
 }
 
+
+export PATH="/home/remco/.local/bin:$PATH"
+
  # fnm
   export PATH="/home/remco/.local/share/fnm:$PATH"
   eval "`fnm env`"
