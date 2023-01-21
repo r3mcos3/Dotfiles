@@ -27,6 +27,8 @@ alias search="sudo apt search $1"
 alias remove="sudo apt purge $1"
 alias upd="sudo apt update"
 alias upg="sudo apt upgrade"
+alias list="nala list --upgradable"
+alias mirrors="sudo nala fetch"
 
 gcom() {
 	git add .
