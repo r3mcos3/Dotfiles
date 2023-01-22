@@ -52,6 +52,7 @@ sudo() {
   fi
 }
 
+neofetch
 
 export PATH="/home/remco/.local/bin:$PATH"
 
@@ -59,3 +60,4 @@ export PATH="/home/remco/.local/bin:$PATH"
   export PATH="/home/remco/.local/share/fnm:$PATH"
   eval "`fnm env`"
 
+export PAGER="most"
