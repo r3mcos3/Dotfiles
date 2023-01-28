@@ -7,8 +7,8 @@ export EDITOR=nvim
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
-plug "wintermi/zsh-fnm"
 plug "zap-zsh/exa"
+
 # Theme
 plug "wintermi/zsh-starship"
 
