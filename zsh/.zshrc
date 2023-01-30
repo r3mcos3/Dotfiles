@@ -12,7 +12,7 @@ plug "zap-zsh/exa"
 # Theme
 plug "wintermi/zsh-starship"
 
-# Example install completion
+# Completion
 plug "esc/conda-zsh-completion"
 
 
@@ -29,6 +29,7 @@ alias upd="sudo apt update"
 alias upg="sudo apt upgrade"
 alias list="nala list --upgradable"
 alias mirrors="sudo nala fetch"
+alias cat="batcat"
 
 gcom() {
 	git add .
@@ -55,9 +56,12 @@ sudo() {
 neofetch
 
 export PATH="/home/remco/.local/bin:$PATH"
+export PATH="/home/remco/.cargo/bin:$PATH"
 
  # fnm
   export PATH="/home/remco/.local/share/fnm:$PATH"
   eval "`fnm env`"
 
 export PAGER="most"
+
+if [ -e /home/remco/.nix-profile/etc/profile.d/nix.sh ]; then . /home/remco/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
