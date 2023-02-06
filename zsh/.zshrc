@@ -3,7 +3,7 @@
 export EDITOR=nvim
 
 
-# # Install plugins
+# Install plugins
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
@@ -20,8 +20,8 @@ plug "esc/conda-zsh-completion"
 alias vpnon="sudo wg-quick up wg0"
 alias vpnoff="sudo wg-quick off wg0"
 alias server="ssh remco@10.10.50.93"
-alias ha="ssh root@10.10.50.173"
-alias mntha="sshfs root@10.10.50.173:/config /home/remco/harddisk/ha/"
+alias ha="ssh root@10.10.50.193"
+alias mntha="sshfs root@10.10.50.193:/config /home/remco/harddisk/ha/"
 alias install="sudo apt install $1"
 alias search="sudo apt search $1"
 alias remove="sudo apt purge $1"
@@ -64,4 +64,3 @@ export PATH="/home/remco/.cargo/bin:$PATH"
 
 export PAGER="most"
 
-if [ -e /home/remco/.nix-profile/etc/profile.d/nix.sh ]; then . /home/remco/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
